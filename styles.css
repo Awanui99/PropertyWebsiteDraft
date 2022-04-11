@@ -79,7 +79,7 @@ small {
 }
 
 #aboutBackground {
-    background-image: url(images/WaikatoFromAbove2.jpg);
+    background-image: url('Images/WaikatoFromAbove2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -95,7 +95,7 @@ img {
 }
 
 .call-to-action {
-    background-image: url(images/DividerImg2.jpg);
+    background-image: url('Images/DividerImg2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -132,7 +132,7 @@ img {
 }
 
 .house-current {
-    background-image: url(Images/HousesImg.jpg);
+    background-image: url('Images/HousesImg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -145,7 +145,7 @@ img {
 }
 
 .house-past {
-    background-image: url(Images/HousesImg2.jpg);
+    background-image: url('Images/HousesImg2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
