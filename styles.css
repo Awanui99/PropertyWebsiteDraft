@@ -1,0 +1,174 @@
+
+
+#cover-image {
+    background-image: url('Images/unnamed3.jpg');
+    background-size: auto 100vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#cover-text {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+small {
+    font-size: 2rem;
+}
+
+#arrowDown {
+    font-size: 4rem;
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    transition: all 250ms ease-in-out;
+    animation: 1s moveUpDown infinite;
+}
+
+#arrowDown:hover {
+    opacity: 1;
+    animation-play-state: paused;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(-5%);
+    }
+    50% {
+        transform: translateY(5%)
+    }
+    100% {
+        transform: translateY(-5%)
+    }
+}
+
+
+
+.darkTheme {
+    background-color: #494949 !important;
+}
+
+.nav-link {
+    color: white !important;
+    transition: all 250ms ease-in-out !important;
+}
+
+.nav-link:hover {
+    color: #919191 !important;
+}
+
+.logo-background {
+    color: white;
+}
+
+#logo {
+    color: white;
+}
+
+#subtext {
+    color: white;
+    font-size: 1rem;
+}
+
+#aboutBackground {
+    background-image: url(images/WaikatoFromAbove2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black
+}
+
+#aboutText {
+    background-color: hsla(0, 0%, 100%, 0.8) !important;
+}
+
+img {
+    width: 100%;
+}
+
+.call-to-action {
+    background-image: url(images/DividerImg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.btn-primary,.badge-primary {
+    background-color: #4974a5 !important;
+    border: none !important;
+    transition: all 250ms ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #395b82 !important;
+}
+
+.btn-secondary {
+    background-color:#494949;
+    border: none !important;
+}
+
+.call-us-today-btn {
+    background-color: white;
+    border: 0.2rem solid #4974a5;
+}
+
+.call-us-today-btn:hover {
+    background-color: #4974a5;
+    color: white;
+}
+
+.house-img {
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.2) !important;
+}
+
+.house-current {
+    background-image: url(Images/HousesImg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25vh;
+    transition: all 250ms ease-in-out;
+}
+
+.house-current:hover {
+    height: 27vh;
+}
+
+.house-past {
+    background-image: url(Images/HousesImg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25vh;
+    transition: all 250ms ease-in-out;
+}
+
+.house-past:hover {
+    height: 27vh;
+}
+
+#contact {
+    color: white;
+}
+
+.divider {
+    background-color: #494949;
+}
+
+.white {
+    color: white;
+}
+
+form {
+    color: black;
+}

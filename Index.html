@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css"/>
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+
+    <!-- OTHER SOURCES -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+
+    <title>Property Development Home</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- NAVBAR -->
+        <nav class="navbar darkTheme navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">*Brand</a>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house mb-1" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                                <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                              </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pastProjects">History</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="HouseBuilderTool.html" tabindex="-1" aria-disabled="true">House Builder Tool <span class="badge badge-primary">New</span></a>
+                        </li>
+                    </ul>
+                    <div class="form-inline my-2 my-lg-0 mr-5">
+                        <a class="btn btn-primary" href="tel:0200000000" tabindex="-1" aria-disabled="true">
+                            Call Us
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill mb-1" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- COVER IMAGE -->
+        <div class="container-fluid p-0 mt-5 mb-5" id="cover-image">
+            <div class="container-fluid h-100 logo-background d-flex flex-column justify-content-center align-items-center pt-4 mt-5" id="cover-text">
+                <h1 class="mb-4 d-flex fw-normal h-50 align-items-end">
+                    <h1 id="logo" class="display-1 h-100">
+                        <b>P</b>ersonal.<br> 
+                        <b>P</b>roperty.<br>
+                        <b>D</b>evelopment.
+                    </h1>
+                </h1>
+                <!-- <span id="subtext" class="mb-2">Personal Property Developments</span> -->
+                <a href="tel:0200000000" class="btn btn-primary">Get in touch with us</a>
+                <span class="mt-4 mb-none h-100 d-flex"><a id="arrowDown" class="h-75 align-self-end" href="#Gallery">&#129175;</a></span>
+            </div>
+        </div>
+        
+        <!-- ABOUT -->
+        <section class="container mb-5 shadow-lg p-0 rounded" id="aboutBackground">
+            <div class="container-fluid d-flex justify-content-center align-items-center flex-column" id="aboutText">
+                <h1 class="display-5 fw-normal mb-4 mt-4">About Us</h1>
+                <p class="text-center m-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <!-- CALL TO ACTION 1 -->
+                <div class="container-fluid call-to-action mt-5 mb-4 rounded">
+                    <div class="container-fluid d-flex justify-content-center align-items-center flex-column logo-background p-4 rounded">
+                        <h3 class="fw-bold text-center">Schedule a Showing</h3>
+                        Call us today<br>
+                        <strong>0200000000</strong>
+
+                        <a href="tel:0200000000" class="btn btn-primary">Make an Appointment</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <!-- GALLERY -->
+        <section class="container shadow-lg pt-4 mt-5 rounded" id="Gallery">
+            <div class="container-fluid d-flex justify-content-center align-items-center flex-column pb-4">
+                <p>Gallery</p>
+                <h1 class="display-5 text-center fw-normal">Current Properties</h1>
+                <p class="text-center">Find out more about the range of properties we have on offer at the moment.</p>
+                <br>
+            
+                <button type="button" class="btn btn-primary mt-1">Contact Us</button>
+
+            </div>
+            <div class="container p-4 white">
+                <div class="row no-gutters">
+                    <div class="col-sm-3 d-flex justify-content-center house-current p-0">
+                        <div class="container-fluid d-flex flex-column house-img text-center fw-bold m-0 p-0"><p>128 Seddon Rd</p>
+                            <div class="container-fluid h-100 p-0 d-flex align-items-end justify-content-end">
+                                <button type="button" title="Book a Showing" class="btn btn-secondary m-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-door-open house-icon" viewBox="0 0 16 16">
+                                        <path d="M8.5 10c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z"/>
+                                        <path d="M10.828.122A.5.5 0 0 1 11 .5V1h.5A1.5 1.5 0 0 1 13 2.5V15h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3V1.5a.5.5 0 0 1 .43-.495l7-1a.5.5 0 0 1 .398.117zM11.5 2H11v13h1V2.5a.5.5 0 0 0-.5-.5zM4 1.934V15h6V1.077l-6 .857z"/>
+                                    </svg>
+                                </button>
+                                <button type="button" title="More Info" class="btn btn-secondary m-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-square house-icon" viewBox="0 0 16 16">
+                                        <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                      </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 d-flex justify-content-center house-current p-0">
+                        <div class="container-fluid d-flex flex-column house-img text-center fw-bold m-0 p-0"><p>128 Seddon Rd</p>
+                            <div class="container-fluid h-100 p-0 d-flex align-items-end justify-content-end">
+                                <button type="button" title="Book a Showing" class="btn btn-secondary m-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-door-open house-icon" viewBox="0 0 16 16">
+                                        <path d="M8.5 10c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z"/>
+                                        <path d="M10.828.122A.5.5 0 0 1 11 .5V1h.5A1.5 1.5 0 0 1 13 2.5V15h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3V1.5a.5.5 0 0 1 .43-.495l7-1a.5.5 0 0 1 .398.117zM11.5 2H11v13h1V2.5a.5.5 0 0 0-.5-.5zM4 1.934V15h6V1.077l-6 .857z"/>
+                                    </svg>
+                                </button>
+                                <button type="button" title="More Info" class="btn btn-secondary m-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-square house-icon" viewBox="0 0 16 16">
+                                        <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                      </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 d-flex justify-content-center house-current p-0">
+                        <div class="container-fluid d-flex flex-column house-img text-center fw-bold m-0 p-0"><p>128 Seddon Rd</p>
+                            <div class="container-fluid h-100 p-0 d-flex align-items-end justify-content-end">
+                                <button type="button" title="Book a Showing" class="btn btn-secondary m-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-door-open house-icon" viewBox="0 0 16 16">
+                                        <path d="M8.5 10c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z"/>
+                                        <path d="M10.828.122A.5.5 0 0 1 11 .5V1h.5A1.5 1.5 0 0 1 13 2.5V15h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3V1.5a.5.5 0 0 1 .43-.495l7-1a.5.5 0 0 1 .398.117zM11.5 2H11v13h1V2.5a.5.5 0 0 0-.5-.5zM4 1.934V15h6V1.077l-6 .857z"/>
+                                    </svg>
+                                </button>
+                                <button type="button" title="More Info" class="btn btn-secondary m-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-square house-icon" viewBox="0 0 16 16">
+                                        <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                      </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 d-flex justify-content-center house-current p-0">
+                        <div class="container-fluid d-flex flex-column house-img text-center fw-bold m-0 p-0"><p>128 Seddon Rd</p>
+                        <div class="container-fluid h-100 p-0 d-flex align-items-end justify-content-end">
+                            <button type="button" title="Book a Showing" class="btn btn-secondary m-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-door-open house-icon" viewBox="0 0 16 16">
+                                    <path d="M8.5 10c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z"/>
+                                    <path d="M10.828.122A.5.5 0 0 1 11 .5V1h.5A1.5 1.5 0 0 1 13 2.5V15h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3V1.5a.5.5 0 0 1 .43-.495l7-1a.5.5 0 0 1 .398.117zM11.5 2H11v13h1V2.5a.5.5 0 0 0-.5-.5zM4 1.934V15h6V1.077l-6 .857z"/>
+                                </svg>
+                            </button>
+                            <button type="button" title="More Info" class="btn btn-secondary m-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-square house-icon" viewBox="0 0 16 16">
+                                    <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                    <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                  </svg>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+            <!-- PREVIOUS PROJECTS -->
+            <div class="container pt-4" id="pastProjects">
+                <div class="container-fluid d-flex justify-content-center align-items-center flex-column pb-4 ">
+                    <h1 class="display-5 text-center fw-normal">Previous Projects</h1>
+
+                    <!-- DIVIDER -->
+                </div>
+                <div class="container p-4">
+                    <div class="row no-gutters">
+                        <div class="col-sm-3 d-flex justify-content-center house-past p-0">
+                            <div class="house-img w-100 h-100 text-center fw-bold m-0 p-0">128 Seddon Rd</div>
+                        </div>
+                        <div class="col-sm-3 d-flex justify-content-center house-past p-0">
+                            <div class="house-img w-100 h-100 text-center fw-bold m-0 p-0">128 Seddon Rd</div>
+                        </div>
+                        <div class="col-sm-3 d-flex justify-content-center house-past p-0">
+                            <div class="house-img w-100 h-100 text-center fw-bold m-0 p-0">128 Seddon Rd</div>
+                        </div>
+                        <div class="col-sm-3 d-flex justify-content-center house-past p-0">
+                            <div class="house-img w-100 h-100 text-center fw-bold m-0 p-0">128 Seddon Rd</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CALL TO ACTION -->
+        <div class="container mt-5 call-to-action rounded p-0">
+            <div class="container-fluid d-flex justify-content-center align-items-center flex-column logo-background p-2 rounded gap-5">
+                <div class="container">
+                    <h1 class="display-5 text-center fw-normal">Want More Information?</h1>
+                    <p class="text-center">We would be happy to answer any of the questions you might have.</p>
+                </div>
+
+                <div class="container m-0">
+                    <form method="post" action="#" class="p-4 rounded w-100 shadow-lg m-0" style="background-color: white;">
+                        <h3 class="fw-normal text-center">Your Message:</h3>
+                        <div class="form-group">
+                          <label for="email">Email address</label>
+                          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                          <label for="message">Message</label>
+                          <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-4">Submit</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- SOCIALS -->
+        <div class="container-fluid shadow-lg mt-5 darkTheme" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 mb-4 mt-4 white">
+                        <h1 class="display-3">*Brand</h1><br>
+                        
+                    </div>
+                    <div class="col-sm-6 d-flex justify-content-center align-items-center rounded flex-column">
+                        <p class="text-uppercase mb-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                            </svg>
+                             128 Seddon Road, Frankton, Hamilton 3204
+                            FMG Stadium Waikato
+                        </p>
+                        <div class="w-100 h-75 d-flex justify-content-center align-items-center rounded mt-3">
+                            <iframe id="gmap_canvas" class="w-100 h-100 rounded" src="https://maps.google.com/maps?q=128%20Seddon%20Road,%20Frankton,%20Hamilton%203204%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20FMG%20Stadium%20Waikato&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container d-flex align-items-center justify-content-center">
+                        <p class="text-center white">&copy; 2022-2023 PDD Ltd, Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
