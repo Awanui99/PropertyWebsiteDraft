@@ -9,4 +9,4 @@ window.addEventListener('scroll', () => {
     if (offset === 0) {
         parallax.style.backgroundPositionY = 0.1 + 'px';
     }
-})
+});

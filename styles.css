@@ -1,5 +1,13 @@
 
 
+body {
+    background-color:#494949;
+}
+
+.wrapper {
+    background-color: white !important;
+}
+
 #cover-image {
     background-image: url('Images/unnamed3.jpg');
     background-size: auto 100vh;
@@ -83,7 +91,8 @@ small {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: black
+    color: black;
+    height: 80vh;
 }
 
 #aboutText {
@@ -96,9 +105,9 @@ img {
 
 .call-to-action {
     background-image: url('Images/DividerImg3.jpg');
-    background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: fill;
+    background-attachment: fixed;
 }
 
 .btn-primary,.badge-primary {

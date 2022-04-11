@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="styles.css">
     <script src="scripts.js" defer></script>
 
+    <!-- SMTP.js -->
+    <script src=" https://smtpjs.com/v3/smtp.js" defer></script>
+
     <title>Property Development Home</title>
 </head>
 <body>
@@ -82,29 +85,30 @@
         </div>
         
         <!-- ABOUT -->
-        <section class="container mb-5 shadow-lg p-0 rounded" id="aboutBackground">
-            <div class="container-fluid d-flex justify-content-center align-items-center flex-column" id="aboutText">
-                <h1 class="display-5 fw-normal mb-4 mt-4">About Us</h1>
-                <p class="text-center m-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <!-- CALL TO ACTION 1 -->
-                <div class="container-fluid call-to-action mt-5 mb-4 rounded">
-                    <div class="container-fluid d-flex justify-content-center align-items-center flex-column logo-background p-4 rounded">
-                        <h3 class="fw-bold text-center">Schedule a Showing</h3>
-                        Call us today<br>
-
-                        <a href="tel:0200000000" class="btn btn-primary">Make an Appointment</a>
-                    </div>
+        <section class="container-fluid shadow-lg p-0 mt-5" id="aboutBackground">
+            <div class="row h-100 w-100 m-0">
+                <div class="col-sm-6 d-flex justify-content-center align-items-center flex-column h-100 m-0 p-4" id="aboutText">
+                    <h1 class="display-5 fw-normal">About Us</h1>
+                    <p class="text-sm-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    
                 </div>
             </div>
         </section>
         
+        <!-- CALL TO ACTION 1 -->
+        <div class="container-fluid call-to-action mb-4 shadow-lg">
+            <div class="container-fluid d-flex justify-content-center align-items-center flex-column logo-background p-4 rounded">
+                <h3 class="fw-bold text-center">Schedule a Showing</h3>
+                Call us today<br>
+
+                <a href="tel:0200000000" class="btn btn-primary">Make an Appointment</a>
+            </div>
+        </div>
         
 
         <!-- GALLERY -->
-        <section class="container shadow-lg pt-4 mt-5 rounded" id="Gallery">
+        <section class="container-fluid shadow-lg p-4 mt-5" id="Gallery">
             <div class="container-fluid d-flex justify-content-center align-items-center flex-column pb-4">
                 <p>Gallery</p>
                 <h1 class="display-5 text-center fw-normal">Current Properties</h1>
@@ -199,7 +203,7 @@
 
                     <!-- DIVIDER -->
                 </div>
-                <div class="container p-4">
+                <div class="container">
                     <div class="row no-gutters">
                         <div class="col-sm-3 d-flex justify-content-center house-past p-0">
                             <div class="house-img w-100 h-100 text-center fw-bold m-0 p-0">128 Seddon Rd</div>
@@ -218,8 +222,8 @@
             </div>
         </section>
 
-        <!-- CALL TO ACTION -->
-        <div class="container mt-5 call-to-action rounded p-0">
+        <!-- CALL TO ACTION SEND A MESSAGE-->
+        <div class="container mt-5 call-to-action rounded pt-4 pb-4 pl-2 pr-2 shadow-lg">
             <div class="container-fluid d-flex justify-content-center align-items-center flex-column logo-background p-2 rounded gap-5">
                 <div class="container">
                     <h1 class="display-5 text-center fw-normal">Want More Information?</h1>
@@ -227,7 +231,7 @@
                 </div>
 
                 <div class="container m-0">
-                    <form method="post" action="#" class="p-4 rounded w-100 shadow-lg m-0" style="background-color: white;">
+                    <form id="sendMessageForm" class="p-4 rounded w-100 shadow-lg m-0" style="background-color: white;">
                         <h3 class="fw-normal text-center">Your Message:</h3>
                         <div class="form-group">
                           <label for="email">Email address</label>
@@ -250,7 +254,19 @@
                 <div class="row">
                     <div class="col-sm-6 mb-4 mt-4 white">
                         <h1 class="display-3">*Brand</h1><br>
-                        
+                        <h3 class="fw-normal">Navigation</h3>
+                        <a class="nav-link active" aria-current="page" href="#Gallery">Gallery</a>
+                        <a class="nav-link" href="#pastProjects">History</a>
+                        <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+                        <a class="nav-link" href="HouseBuilderTool.html" tabindex="-1" aria-disabled="true">House Builder Tool <span class="badge badge-primary">New</span></a>
+                        <h3 class="fw-normal">Contact</h3>
+                        <a class="btn btn-primary" href="tel:0200000000" tabindex="-1" aria-disabled="true">
+                            Call Us
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill mb-1" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                            </svg>
+                        </a>
+
                     </div>
                     <div class="col-sm-6 d-flex justify-content-center align-items-center rounded flex-column">
                         <p class="text-uppercase mb-0">
