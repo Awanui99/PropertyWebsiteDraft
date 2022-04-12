@@ -159,10 +159,12 @@ img {
     background-size: cover;
     height: 25vh;
     transition: all 250ms ease-in-out;
+    margin-bottom: 2vh !important;
 }
 
 .house-current:hover {
     height: 27vh;
+    margin-bottom: 0vh !important;
 }
 
 .house-past {
@@ -172,10 +174,12 @@ img {
     background-size: cover;
     height: 25vh;
     transition: all 250ms ease-in-out;
+    margin-bottom: 2vh !important;
 }
 
 .house-past:hover {
     height: 27vh;
+    margin-bottom: 0vh !important;
 }
 
 #contact {
