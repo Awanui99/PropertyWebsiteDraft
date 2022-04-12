@@ -28,6 +28,11 @@ body {
     user-select: none;
 }
 
+.white-bg {
+    background-color: white !important;
+    color: black;
+}
+
 small {
     font-size: 2rem;
 }
@@ -60,6 +65,7 @@ small {
 
 .darkTheme {
     background-color: #494949 !important;
+    color: white !important;
 }
 
 .nav-link {
@@ -160,7 +166,7 @@ img {
 }
 
 .house-past {
-    background-image: url('Images/HousesImg2.jpg');
+    background-image: url('Images/HousesImg3.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
